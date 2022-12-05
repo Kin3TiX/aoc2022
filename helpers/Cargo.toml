@@ -1,13 +1,13 @@
 [package]
-name = "day1"
+name = "helpers"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-helpers = { path = "../helpers" }
+relative-path = "1.7.2"
 
-[build-dependencies]
-copy_to_output = "2.0.0"
-glob = "0.3"
+[lib]
+name = "helpers"
+path = "src/pathing.rs"
