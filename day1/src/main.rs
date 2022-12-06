@@ -1,6 +1,6 @@
 fn main() {
 
-    let input_data = helpers::get_input_data("resources/input.txt");
+    let input_data = helpers::get_input_data("resources/day1.txt");
     let split_by_elf: Vec<&str> = input_data.split("\n\n").collect();
 
     let mut elf_calories = Vec::new();
