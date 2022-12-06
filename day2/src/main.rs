@@ -24,7 +24,7 @@ fn main() {
         ("C Z", draw),
     ]);
 
-    let input_data = helpers::get_input_data("resources/day2.txt");
+    let input_data = helpers::pathing::get_input_data("resources/day2.txt");
     let split_by_round: Vec<&str> = input_data.split("\n").collect();
 
     let mut part1_total_score = 0;

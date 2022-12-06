@@ -10,4 +10,4 @@ relative-path = "1.7.2"
 
 [lib]
 name = "helpers"
-path = "src/pathing.rs"
+path = "src/lib.rs"
